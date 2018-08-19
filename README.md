@@ -20,6 +20,9 @@ When checking in you will recieve an email with the current parking spot you're 
 
 If unfortunatelly you scratched someone's car you can view informations such as email of that person to contact him/her.
 
+You can view in which day of the week the parking lot is the busiest.
+
+
 Parking spot's color map
 ------------------------
 
