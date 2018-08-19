@@ -1,10 +1,10 @@
-_Student: Cristina Floroiu; Subject: Web App Development; Teacher: Andrei Vasilateanu; Institution: Politehnica University of Bucharest._
+_Student: Cristina Floroiu; Subject: Web App Development; Teacher: Andrei Vasilateanu; University of Politechnica, Bucharest._
 # ParkingApp
 
 Project Premise
 ---------------
 
-Bucharest can be crowded, so looking all over for a parking spot has never been anyone's favorite activity. Taking that into account, the parking app could save us a lot of time. It simulates a parking with 100 parking spots. Let's assume it's Politehnica's main parking (though designing the real Politehnica's parking wouldn't be such trouble, I would like to focus more on coding). 
+Bucharest can be crowded, so looking all over for a parking spot has never been anyone's favorite activity. Taking that into account, the parking app could save us a lot of time. It simulates a parking with 87 parking spots randomly distributed. Let's assume it's Politehnica's main parking (though designing the real Politehnica's parking wouldn't be such trouble, I would rather focus on code). 
 
 Assigning yourself a spot means clicking on a free (green) spot and checking in from the newly appeared modal window. 
 
@@ -38,5 +38,5 @@ Grey - Unavailable
 
 
 
-**Car parking app, with login and register functionality. Auth using cookies. Front-end using Bootstrap. Map built using Illustrator's SVG. jQuery for parsing JSON data from/to server. DB built with Oracle's MySQL.**
+**Car parking app, with login and register functionality. Auth using cookies. Front-end using Bootstrap. Map built using Illustrator's SVG, RegEx for building selectable elements. jQuery for parsing JSON data from/to server. DB built with Oracle's MySQL.**
 
