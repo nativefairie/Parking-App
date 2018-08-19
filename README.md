@@ -26,10 +26,7 @@ You can view in which day of the week the parking lot is the busiest.
 Parking spot's color map
 ------------------------
 
-Red - Busy
-Orange - Estimated to be free in about 15 minutes
-Green - Free
-Grey - Unavailable 
+![Parking_Color_Map](https://github.com/nativefairie/WAD/blob/master/ParkingMap.png)
 
 
 *How it will work// technically*
