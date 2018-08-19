@@ -1,4 +1,4 @@
-_Student: Cristina Floroiu; Subject: Web App Development; Teacher: Andrei Vasilateanu; University of Politechnica, Bucharest._
+_Student: Cristina Floroiu; Subject: Web App Development; Teacher: Andrei Vasilateanu; Institution: Politehnica University of Bucharest._
 # ParkingApp
 
 Project Premise
