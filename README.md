@@ -18,7 +18,7 @@ If you are the dean or a teacher, the system admin can make your spot unavailabl
 
 When checking in you will recieve an email with the current parking spot you're on and estimated time of staying. 
 
-If unfortunatelly you scratched someone's car you can view informations such as phone number of that person.
+If unfortunatelly you scratched someone's car you can view informations such as email of that person to contact him/her.
 
 Parking spot's color map
 ------------------------
