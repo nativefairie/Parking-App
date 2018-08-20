@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/daypicker.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src='js/daypicker.js'></script>
+</head>
+
+<body>
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Please select the week days for which you want to view the statistics</p>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="control-label" for="weekday">Week Day</label>
+                        <form class="form-statistic" action="statistics.html" method="post">
+                            <!-- replace the values if needed with alphanumeric values (monday, tuesday etc.)-->
+                            <input id="weekday" type="radio" name="weekday" value="1"> Monday
+                            <input id="weekday 2" type="radio" name="weekday" value="2"> Tuesday
+                            <input id="weekday 3" type="radio" name="weekday" value="3"> Wednesday
+                            <input id="weekday 4" type="radio" name="weekday" value="4"> Thursday
+                            <input id="weekday 5" type="radio" name="weekday" value="5"> Friday
+                            <input id="weekday 6" type="radio" name="weekday" value="6"> Saturday
+                            <input id="weekday 7" type="radio" name="weekday" value="7"> Sunday
+                        </form>
+                    </div>
+                </div>
+                <button id="selected--day" type="submit" class="btn">Submit</button>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
