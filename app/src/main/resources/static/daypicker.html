@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/daypicker.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/daypicker.js"></script>
+
+</head>
+
+<body id="img-bg" background="https://previews.123rf.com/images/kentoh/kentoh0910/kentoh091000282/5716294-statistics-and-analysis-of-data-as-background.jpg">
+
+            <div class="statistic-body">
+                <p class="titlu" >Please select the months for which you need the statistics</p>
+                <br>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="control-label" for="WorkWeek">Select Month:</label>
+                        <form class="form-statistic" action="statistics.html" method="post">
+                            <select>
+                                <option type="radio" name="month" value="1"> January</option>
+                                <option type="radio" name="month" value="2"> February</option>
+                                <option type="radio" name="month" value="3"> March</option>
+                                <option type="radio" name="month" value="4"> April</option>
+                                <option type="radio" name="month" value="5"> May</option>
+                                <option type="radio" name="month" value="6"> June</option>
+                                <option type="radio" name="month" value="7"> July</option>
+                                <option type="radio" name="month" value="8"> August</option>
+                                <option type="radio" name="month" value="9"> September</option>
+                                <option type="radio" name="month" value="10"> October</option>
+                                <option type="radio" name="month" value="11"> November</option>
+                                <option type="radio" name="month" value="12"> December</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <button id="selected--month" type="submit" class="btn">Submit</button>
+            </div>
+
+            <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+
+            <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+            <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+
+</body>
+
+
+</html>

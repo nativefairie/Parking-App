@@ -1,0 +1,15 @@
+{
+ // "spots": [
+    {      
+      "parkingSpotId": 1,
+      "status": "de la 0 la 3 int",
+      "userEmail": "string",
+      //cand trimit
+   //hour
+   		"endHour" : "hh:mm string",
+   //pass
+      		"userPassword" : "pass"
+     },
+   
+  //]
+}

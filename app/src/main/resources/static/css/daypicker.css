@@ -1,0 +1,81 @@
+input[type=checkbox] {
+    display: none;
+  }
+  input[type=checkbox] + label {
+    color: #ccc;
+    cursor: pointer;
+  }
+  input[type=checkbox]:checked + label {
+    color: #333;
+  }
+  .days > div {
+    display: inline;
+  }
+
+
+  #img-bg {
+    background-image: url('https://www.https://previews.123rf.com/images/kentoh/kentoh0910/kentoh091000282/5716294-statistics-and-analysis-of-data-as-background.jpg.com/photo_5716294_statistics-and-analysis-of-data-as-background.html') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.btn {
+    background:indianred;
+    color: peachpuff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: #333 0 1px 2px 0;
+}
+
+.statistic-body {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+
+
+#chartContainer {
+  margin-top: 80px;
+  opacity: 0.75;
+  background: rgba(200, 54, 54, 0.5);
+}
+
+.titlu {
+  font-size: 26px;
+  font-weight: bold;
+  color: green; /* IE8 proofing */
+  color: green;
+  border-bottom: 2px solid transparent;
+}
+
+.control-label {
+  font-size: 19px;
+  font-weight: bold;
+  color: green; /* IE8 proofing */
+  color: green;
+  border-bottom: 2px solid transparent;
+}
+
+.form-statistic {
+  margin-top: 10px;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -9,27 +9,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Cardo|Montserrat" rel="stylesheet">
     <!-- My css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap includes -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" /> 
-    <title>dbParking</title>
+    <title>Parking</title>
 </head>
 <body class="text-center">
-    <form class="form-signin" method="post" Content-Type="application/json" Accept="application/json">
+    <form class="form-signin">
       <img class="mb-4" src="img/logo_img.png" alt="logo">
-      <h1 class="h3 mb-3 font-weight-normal">Sign in to ParkingApp</h1>
-      <p>...And choose where you park your car today!</p>
-      <label for="inputEmail" class="sr-only"> Email address</label>
-      <input type="text" id="inputEmail" class="form-control" placeholder="Email address" required autofocus name="userEmail">
-      <label for="inputPassword"  class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required name="userPassword">
-      <!--<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>-->
-        <input class="btn btn-lg btn-primary btn-block"type="submit" value="Log in">
+      <h1 class="h3 mb-3 font-weight-normal">Sign up for ParkingApp</h1>
+      <p>...And never forget where you parked your car!</p>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" id="inputPassword" class="form-control" name="userPassword" placeholder="Password" required>
+      <button class="btn btn-lg btn-primary btn-block" type="submit"><a href="login.html">Register</a></button>
       <p class="mt-5 mb-3 text-muted">Copyright &copy; 2018 Cristina Floroiu, Politehnica University of Bucharest</p>
     </form>
 </body>
+</script>
 <script src="script.js"></script>
 </html>
