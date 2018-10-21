@@ -1,5 +1,3 @@
-#WAD
-_Student: Cristina Floroiu; Subject: Web App Development; Teacher: Andrei Vasilateanu; Institution: University of Politechnica, Bucharest._
 # ParkingApp
 
 Project Premise
@@ -28,11 +26,6 @@ Parking spot's color map
 ------------------------
 
 ![Parking_Color_Map](https://github.com/nativefairie/WAD/blob/master/ParkingMap.png)
-
-
-*How it will work// technically*
-*Some data plotting*
-*Add cuprins*
 
 
 
